@@ -1,0 +1,13 @@
+train_net: "train_val.prototxt"
+base_lr: 1e-8
+lr_policy: "step"
+gamma: 0.1
+iter_size: 10
+stepsize: 6500
+average_loss: 20
+display: 20
+max_iter: 10000
+momentum: 0.90
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "snapshot/RADF"
