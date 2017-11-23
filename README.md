@@ -54,7 +54,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
    ipython notebook RADF_test.ipynb
    ``` 
 
-4. Apply CRF to do the post-processing for each image.
-   The code for CRF can be found in [https://github.com/Andrew-Qibin/dss_crf](https://github.com/Andrew-Qibin/dss_crf)
+4. Apply CRF to do the post-processing for each image.   
+   The code for CRF can be found in [https://github.com/Andrew-Qibin/dss_crf](https://github.com/Andrew-Qibin/dss_crf)   
    *Note that please provide a link to the original code as a footnote or a citation if you plan to use it.
   
