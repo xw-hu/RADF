@@ -28,12 +28,11 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
 
 2. Build RADF (based on Caffe)
 
-   *This model is tested on Ubuntu 16.04, CUDA 8.0, cuDNN 5.0
-
-   ```shell
-   # Follow the Caffe installation instructions here:   
-   # [http://caffe.berkeleyvision.org/installation.html](http://caffe.berkeleyvision.org/installation.html)   
-   ```
+   *This model is tested on Ubuntu 16.04, CUDA 8.0, cuDNN 5.0   
+    
+   Follow the Caffe installation instructions here:   
+   [http://caffe.berkeleyvision.org/installation.html](http://caffe.berkeleyvision.org/installation.html)   
+   
    In Makefile.config:  uncomment WITH_PYTHON_LAYER := 1 
    
    ```shell
