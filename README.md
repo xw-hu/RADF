@@ -18,11 +18,11 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 ## Installation
 1. Clone the RADF repository, and we'll call the directory that you cloned RADF into `RADF`.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```git clone https://github.com/xw-hu/RADF.git```
+    ```git clone https://github.com/xw-hu/RADF.git```
 
 2. Build RADF (based on Caffe)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *This model is tested on Ubuntu-16.04 CUDA-8.0 cuDNN-5.0
+   *This model is tested on Ubuntu-16.04 CUDA-8.0 cuDNN-5.0
 
    ```shell
       # Follow the Caffe installation instructions here:   
@@ -39,7 +39,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 
    Put this model in `RADF/examples/snapshot/`.
 
-2. Export PYTHONPATH like:
+2. Export PYTHONPATH in the command window such as:
 
    ``` export PYTHONPATH='/home/xwhu/RADF/python'```
  
