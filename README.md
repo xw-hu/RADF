@@ -18,23 +18,33 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 ## Installation
 1. Clone the RADF repository, and we'll call the directory that you cloned RADF into `RADF`.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```git clone https://github.com/xw-hu/RADF.git```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```git clone https://github.com/xw-hu/RADF.git```
 
 2. Build RADF (based on Caffe)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *This model is tested on Ubuntu-16.04 CUDA-8.0 cuDNN-5.0
 
-```shell
-   # Follow the Caffe installation instructions here:   
-   # http://caffe.berkeleyvision.org/installation.html   
+   ```shell
+      # Follow the Caffe installation instructions here:   
+      # [http://caffe.berkeleyvision.org/installation.html](http://caffe.berkeleyvision.org/installation.html)   
+   ```
    In Makefile.config:  uncomment WITH_PYTHON_LAYER := 1 
-   
-   make all -j XX
-   make pycaffe
-```
+   ```shell
+      make all -j XX
+      make pycaffe
+   ```
 
 ## Test
 1. Please download our pretrained model on [Google Drive](https://drive.google.com/open?id=0B8VpfLBo2BeybkpYenNMbXNwR1U).
+
    Put this model in `RADF/examples/snapshot/`.
 
-2.  
+2. Export PYTHONPATH like:
+
+   ``` export PYTHONPATH='/home/xwhu/RADF/python'```
+ 
+3. Run the test model:
+   
+   ```ipython notebook RADF_test.ipynb``` 
+   
+  
