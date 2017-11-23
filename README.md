@@ -14,7 +14,20 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 &nbsp;&nbsp;&nbsp;&nbsp;  year  = {2018}    
 }
 
+
 ## Installation
 1. Clone the RADF repository, and we'll call the directory that you cloned RADF into `RADF`.
+
 ```git clone https://github.com/xw-hu/RADF.git```
-2. Build 
+
+2. Build RADF (based on Caffe)
+
+#This model is tested on Ubuntu-16.04 CUDA-8.0 cuDNN-5.0
+
+```# Follow the Caffe installation instructions here:
+   # http://caffe.berkeleyvision.org/installation.html
+   # In Makefile.config:  uncomment WITH_PYTHON_LAYER := 1```
+   
+```make all -j XX```
+
+```make pycaffe```
