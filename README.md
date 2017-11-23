@@ -25,13 +25,13 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
    *This model is tested on Ubuntu-16.04 CUDA-8.0 cuDNN-5.0
 
    ```shell
-      # Follow the Caffe installation instructions here:   
-      # [http://caffe.berkeleyvision.org/installation.html](http://caffe.berkeleyvision.org/installation.html)   
+   # Follow the Caffe installation instructions here:   
+   # [http://caffe.berkeleyvision.org/installation.html](http://caffe.berkeleyvision.org/installation.html)   
    ```
    In Makefile.config:  uncomment WITH_PYTHON_LAYER := 1 
    ```shell
-      make all -j XX
-      make pycaffe
+   make all -j XX
+   make pycaffe
    ```
 
 ## Test
