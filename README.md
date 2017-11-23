@@ -73,3 +73,8 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
    sh train.sh
    ```
 
+## Useful Links
+* [MSRA10k](http://mmcheng.net/msra10k/) : Our training set.
+* [Evaluation Code (Windows)](https://github.com/MingMingCheng/CmCode/tree/master/CmLib/Illustration)
+* [Evaluation Code (Ubuntu)](https://github.com/Andrew-Qibin/SalMetric)
+*Note that please provide a link to the original code as a footnote or a citation if you plan to use it.
