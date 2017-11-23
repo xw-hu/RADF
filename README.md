@@ -16,7 +16,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 
 ## Saliency Maps   
 
-The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL-S, SOD, DUT-OMRON) can be found on [Google Drive](https://drive.google.com/drive/folders/0B8VpfLBo2BeyNWxnMURWNlU0YVE?usp=sharing).
+The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL-S, SOD, DUT-OMRON) can be found at [Google Drive](https://drive.google.com/drive/folders/0B8VpfLBo2BeyNWxnMURWNlU0YVE?usp=sharing).
 
 
 ## Installation
@@ -42,7 +42,7 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
    ```
 
 ## Test
-1. Please download our pretrained model on [Google Drive](https://drive.google.com/open?id=0B8VpfLBo2BeybkpYenNMbXNwR1U).   
+1. Please download our pretrained model at [Google Drive](https://drive.google.com/open?id=0B8VpfLBo2BeybkpYenNMbXNwR1U).   
    Put this model in `RADF/examples/snapshot/`.
 
 2. Export PYTHONPATH in the command window such as:
@@ -62,7 +62,7 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
    *Note that please provide a link to the original code as a footnote or a citation if you plan to use it.
   
 ## Train
-1. Download the pre-trained VGG16 model in [http://www.robots.ox.ac.uk/~vgg/research/very_deep/](http://www.robots.ox.ac.uk/~vgg/research/very_deep/).   
+1. Download the pre-trained VGG16 model at [http://www.robots.ox.ac.uk/~vgg/research/very_deep/](http://www.robots.ox.ac.uk/~vgg/research/very_deep/).   
    Put this model in `RADF/models/`
 
 2. Enter the `RADF/examples/`
