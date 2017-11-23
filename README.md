@@ -16,7 +16,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 
 ## Saliency Maps   
 
-The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL-S, SOD, DUT-OMRON) can be found on [Google Drive](https://drive.google.com/drive/folders/0B8VpfLBo2BeyNWxnMURWNlU0YVE?usp=sharing)
+The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL-S, SOD, DUT-OMRON) can be found on [Google Drive](https://drive.google.com/drive/folders/0B8VpfLBo2BeyNWxnMURWNlU0YVE?usp=sharing).
 
 
 ## Installation
@@ -62,3 +62,5 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
    The code for CRF can be found in [https://github.com/Andrew-Qibin/dss_crf](https://github.com/Andrew-Qibin/dss_crf)   
    *Note that please provide a link to the original code as a footnote or a citation if you plan to use it.
   
+## Train
+
