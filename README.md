@@ -29,6 +29,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
    # [http://caffe.berkeleyvision.org/installation.html](http://caffe.berkeleyvision.org/installation.html)   
    ```
    In Makefile.config:  uncomment WITH_PYTHON_LAYER := 1 
+   
    ```shell
    make all -j XX
    make pycaffe
@@ -43,8 +44,11 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 
    ``` export PYTHONPATH='/home/xwhu/RADF/python'```
  
-3. Run the test model:
+3. Run the test model (please modify the path for reading images):
    
    ```ipython notebook RADF_test.ipynb``` 
-   
+
+4. Apply CRF to do the post-processing for each image.
+   The code for CRF can be found in [https://github.com/Andrew-Qibin/dss_crf](https://github.com/Andrew-Qibin/dss_crf)
+   *Note that please provide a link to the original code as a footnote or a citation if you plan to use it.
   
