@@ -13,3 +13,8 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 &nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {AAAI},    
 &nbsp;&nbsp;&nbsp;&nbsp;  year  = {2018}    
 }
+
+## Installation
+1. Clone the RADF repository, and we'll call the directory that you cloned RADF into `RADF`.
+```git clone https://github.com/xw-hu/RADF.git```
+2. Build 
