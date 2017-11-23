@@ -1,0 +1,40 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   CMakeLists.txt
+#	new file:   CONTRIBUTING.md
+#	new file:   CONTRIBUTORS.md
+#	new file:   INSTALL.md
+#	new file:   LICENSE
+#	new file:   Makefile
+#	new file:   Makefile.config
+#	new file:   Makefile.config.example
+#	new file:   caffe.cloc
+#	modified:   examples/RADF_test.ipynb
+#	new file:   tools/CMakeLists.txt
+#	new file:   tools/caffe.cpp
+#	new file:   tools/compute_image_mean.cpp
+#	new file:   tools/convert_imageset.cpp
+#	new file:   tools/device_query.cpp
+#	new file:   tools/extra/extract_seconds.py
+#	new file:   tools/extra/launch_resize_and_crop_images.sh
+#	new file:   tools/extra/parse_log.py
+#	new file:   tools/extra/parse_log.sh
+#	new file:   tools/extra/plot_log.gnuplot.example
+#	new file:   tools/extra/plot_training_log.py.example
+#	new file:   tools/extra/resize_and_crop_images.py
+#	new file:   tools/extra/summarize.py
+#	new file:   tools/extract_features.cpp
+#	new file:   tools/finetune_net.cpp
+#	new file:   tools/net_speed_benchmark.cpp
+#	new file:   tools/test_net.cpp
+#	new file:   tools/train_net.cpp
+#	new file:   tools/upgrade_net_proto_binary.cpp
+#	new file:   tools/upgrade_net_proto_text.cpp
+#	new file:   tools/upgrade_solver_proto_text.cpp
+#
+
