@@ -32,7 +32,7 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
     
    Follow the Caffe installation instructions here: [http://caffe.berkeleyvision.org/installation.html](http://caffe.berkeleyvision.org/installation.html)   
    
-   In Makefile.config:  uncomment WITH_PYTHON_LAYER := 1 
+   In Makefile.config:  uncomment `WITH_PYTHON_LAYER := 1` 
    
    ```shell
    make all -j XX
