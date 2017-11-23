@@ -42,8 +42,7 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
    ```
 
 ## Test
-1. Please download our pretrained model on [Google Drive](https://drive.google.com/open?id=0B8VpfLBo2BeybkpYenNMbXNwR1U).
-
+1. Please download our pretrained model on [Google Drive](https://drive.google.com/open?id=0B8VpfLBo2BeybkpYenNMbXNwR1U).   
    Put this model in `RADF/examples/snapshot/`.
 
 2. Export PYTHONPATH in the command window such as:
@@ -63,4 +62,14 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
    *Note that please provide a link to the original code as a footnote or a citation if you plan to use it.
   
 ## Train
+1. Download the pre-trained VGG16 model in [http://www.robots.ox.ac.uk/~vgg/research/very_deep/](http://www.robots.ox.ac.uk/~vgg/research/very_deep/).   
+   Put this model in `RADF/models/`
+
+2. Enter the `RADF/examples/`
+   Modify the image path in `train_val.prototxt`.
+
+3. Run   
+   ```shell
+   sh train.sh
+   ```
 
