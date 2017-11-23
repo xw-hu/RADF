@@ -63,7 +63,7 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
 1. Download the pre-trained VGG16 model at [http://www.robots.ox.ac.uk/~vgg/research/very_deep/](http://www.robots.ox.ac.uk/~vgg/research/very_deep/).   
    Put this model in `RADF/models/`
 
-2. Enter the `RADF/examples/`
+2. Enter the `RADF/examples/`   
    Modify the image path in `train_val.prototxt`.
 
 3. Run   
