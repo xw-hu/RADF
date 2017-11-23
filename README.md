@@ -14,6 +14,10 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 &nbsp;&nbsp;&nbsp;&nbsp;  year  = {2018}    
 }
 
+## Saliency Maps   
+
+The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL-S, SOD, DUT-OMRON) can be found on [Google Drive](https://drive.google.com/drive/folders/0B8VpfLBo2BeyNWxnMURWNlU0YVE?usp=sharing)
+
 
 ## Installation
 1. Clone the RADF repository, and we'll call the directory that you cloned RADF into `RADF`.
@@ -24,7 +28,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 
 2. Build RADF (based on Caffe)
 
-   *This model is tested on Ubuntu-16.04 CUDA-8.0 cuDNN-5.0
+   *This model is tested on Ubuntu 16.04, CUDA 8.0, cuDNN 5.0
 
    ```shell
    # Follow the Caffe installation instructions here:   
