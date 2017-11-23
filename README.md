@@ -78,4 +78,4 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
 * [Evaluation Code (Windows)](https://github.com/MingMingCheng/CmCode/tree/master/CmLib/Illustration)
 * [Evaluation Code (Ubuntu)](https://github.com/Andrew-Qibin/SalMetric)   
 
-&nbsp;&nbsp;&nbsp;&nbsp; *Note that please provide a link to the original code as a footnote or a citation if you plan to use it.
+&nbsp;&nbsp;&nbsp; *Note that please provide a link to the original code as a footnote or a citation if you plan to use it.
