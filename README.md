@@ -30,8 +30,7 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
 
    *This model is tested on Ubuntu 16.04, CUDA 8.0, cuDNN 5.0   
     
-   Follow the Caffe installation instructions here:   
-   [http://caffe.berkeleyvision.org/installation.html](http://caffe.berkeleyvision.org/installation.html)   
+   Follow the Caffe installation instructions here: [http://caffe.berkeleyvision.org/installation.html](http://caffe.berkeleyvision.org/installation.html)   
    
    In Makefile.config:  uncomment WITH_PYTHON_LAYER := 1 
    
