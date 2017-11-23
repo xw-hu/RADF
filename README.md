@@ -49,7 +49,7 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
    export PYTHONPATH='/home/xwhu/RADF/python'
    ```
  
-3. Run the test model (please modify the path for reading images):
+3. Run the test model (please modify the path of images):
    
    ```shell
    ipython notebook RADF_test.ipynb
