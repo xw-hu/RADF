@@ -25,11 +25,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *This model is tested on Ubuntu-16.04 CUDA-8.0 cuDNN-5.0
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```# Follow the Caffe installation instructions here:```
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```# http://caffe.berkeleyvision.org/installation.html```
-                                  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```# In Makefile.config:  uncomment WITH_PYTHON_LAYER := 1```
-   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```# http://caffe.berkeleyvision.org/installation.html```                                  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```# In Makefile.config:  uncomment WITH_PYTHON_LAYER := 1```  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```make all -j XX```
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```make pycaffe```
