@@ -18,7 +18,9 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 ## Installation
 1. Clone the RADF repository, and we'll call the directory that you cloned RADF into `RADF`.
 
-    ```git clone https://github.com/xw-hu/RADF.git```
+    ```shell
+    git clone https://github.com/xw-hu/RADF.git
+    ```
 
 2. Build RADF (based on Caffe)
 
@@ -42,11 +44,15 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 
 2. Export PYTHONPATH in the command window such as:
 
-   ``` export PYTHONPATH='/home/xwhu/RADF/python'```
+   ```shell
+   export PYTHONPATH='/home/xwhu/RADF/python'
+   ```
  
 3. Run the test model (please modify the path for reading images):
    
-   ```ipython notebook RADF_test.ipynb``` 
+   ```shell
+   ipython notebook RADF_test.ipynb
+   ``` 
 
 4. Apply CRF to do the post-processing for each image.
    The code for CRF can be found in [https://github.com/Andrew-Qibin/dss_crf](https://github.com/Andrew-Qibin/dss_crf)
