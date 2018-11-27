@@ -8,7 +8,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 
 ## Citation
 @inproceedings{hu18recurrently,   
-&nbsp;&nbsp;&nbsp;&nbsp;  author = {Hu, Xiaowei and Zhu, Lei and Qin, Jing and Fu, Chi-Wing and Heng, Pheng-Ann},              
+&nbsp;&nbsp;&nbsp;&nbsp;  author = {Xiaowei Hu and Lei Zhu and Jing Qin and Chi-Wing Fu and Pheng-Ann Heng},    
 &nbsp;&nbsp;&nbsp;&nbsp;  title = {Recurrently Aggregating Deep Features for Salient Object Detection},    
 &nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {AAAI},    
 &nbsp;&nbsp;&nbsp;&nbsp;  year  = {2018}    
