@@ -8,7 +8,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 
 ## Citation
 @inproceedings{hu18recurrently,   
-&nbsp;&nbsp;&nbsp;&nbsp;  author = {Xiaowei Hu and Lei Zhu and Jing Qin and Chi-Wing Fu and Pheng-Ann Heng},    
+&nbsp;&nbsp;&nbsp;&nbsp;  author = {Hu, Xiaowei and Zhu, Lei and Qin, Jing and Fu, Chi-Wing and Heng, Pheng-Ann},    
 &nbsp;&nbsp;&nbsp;&nbsp;  title = {Recurrently Aggregating Deep Features for Salient Object Detection},    
 &nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {AAAI},    
 &nbsp;&nbsp;&nbsp;&nbsp;  year  = {2018}    
@@ -20,35 +20,35 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL-S, SOD, DUT-OMRON) can be found at [Google Drive](https://drive.google.com/drive/folders/0B8VpfLBo2BeyNWxnMURWNlU0YVE?usp=sharing).
 
 
+
 ## Installation
-1. Clone the RADF repository, and we'll call the directory that you cloned RADF into `RADF`.
+
+*This model is tested on Ubuntu 16.04, CUDA 8.0, cuDNN 5.0   
+
+1. Please download and compile our [CF-Caffe](https://github.com/xw-hu/CF-Caffe).
+
+2. Clone the RADF repository, and we'll call the directory that you cloned as `RADF-master`.
 
     ```shell
     git clone https://github.com/xw-hu/RADF.git
     ```
-
-2. Build RADF (based on Caffe)
-
-   *This model is tested on Ubuntu 16.04, CUDA 8.0, cuDNN 5.0   
     
-   Follow the Caffe installation instructions here: [http://caffe.berkeleyvision.org/installation.html](http://caffe.berkeleyvision.org/installation.html)   
-   
-   ```shell
-   make all -j XX
-   make pycaffe
-   ```
+3. Replace `CF-Caffe/examples/` by `RADF-master/examples/`.
+   Replace `CF-Caffe/data/` by `RADF-master/data/`.
+
+
 
 ## Test
 1. Please download our pretrained model at [Google Drive](https://drive.google.com/open?id=0B8VpfLBo2BeybkpYenNMbXNwR1U).   
-   Put this model in `RADF/examples/snapshot/`.
+   Put this model in `examples/RADF/snapshot/`.
 
 2. Export PYTHONPATH in the command window such as:
 
    ```shell
-   export PYTHONPATH='/home/xwhu/RADF/python'
+   export PYTHONPATH='/path/to/CF-Caffe/python'
    ```
  
-3. Make the folder `RADF/examples/result/` and run the test model in `RADF/examples` (please modify the path of images):
+3. Make the folder `examples/RADF/result/` and run the test model in `examples/RADF/` (please modify the path of images):
    
    ```shell
    ipython notebook RADF_test.ipynb
@@ -60,9 +60,9 @@ The results of salienct object detection on five datasets (ECSSD, HKU-IS, PASCAL
   
 ## Train
 1. Download the pre-trained VGG16 model at [http://www.robots.ox.ac.uk/~vgg/research/very_deep/](http://www.robots.ox.ac.uk/~vgg/research/very_deep/).   
-   Put this model in `RADF/models/`
+   Put this model in `CF-Caffe/models/`
 
-2. Enter the `RADF/examples/`   
+2. Enter the `examples/RADF/`   
    Modify the image path in `train_val.prototxt`.
 
 3. Run   
