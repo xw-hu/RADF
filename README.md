@@ -40,8 +40,7 @@ The results of salient object detection on five datasets (ECSSD, HKU-IS, PASCAL-
 
 
 ## Test
-1. Please download our pretrained model at [Google Drive](https://drive.google.com/open?id=0B8VpfLBo2BeybkpYenNMbXNwR1U).   
-   Put this model in `examples/RADF/snapshot/`.
+1. Put the pretrained model in `examples/RADF/snapshot/`.
 
 2. Export PYTHONPATH in the command window such as:
 
